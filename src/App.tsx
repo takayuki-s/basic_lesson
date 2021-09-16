@@ -3,7 +3,7 @@ import { Counter } from './features/counter/Counter';
 import './App.css';
 
 const App: React.FC = ()  => {
-  const [status, setStatus] = useState<string>("text");
+  const [status, setStatus] = useState<string | number>("text");
   return (
     <div className="App">
       <header className="App-header">
